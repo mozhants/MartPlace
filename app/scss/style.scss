@@ -82,3 +82,156 @@
 }
 
 // end header
+
+
+
+
+// start footer
+
+.footer__content{
+	background-color: #262b30;
+}
+.footer__inner{
+	padding: 115px 0;
+	display: flex;
+	justify-content: space-between;
+}
+.footer__logo{
+	margin-bottom: 27px;
+}
+.footer__col-info{
+	max-width: 265px;
+	width: 100%;
+	color: #ababab;
+	a{
+		color: #ababab;
+	}
+}
+.footer__col-text{
+	padding-bottom: 20px;
+	line-height: 28px;
+	color: #ababab;
+}
+.footer__info{
+	line-height: 26px;
+	margin-bottom: 10px;
+	padding-left: 30px;
+}
+.footer__info-phone{
+	position: relative;
+	&::before{
+		content: '';
+		position: absolute;
+		background-image: url(../images/icons/phone.png);
+		width: 18px;
+		height: 17px;
+		left: 0;
+		top: 4px;
+	}
+}
+.footer__info-email{
+	position: relative;
+	&::before{
+		content: '';
+		position: absolute;
+		background-image: url(../images/icons/e-mail.png);
+		width: 17px;
+		height: 11px;
+		left: 0;
+		top: 9px;
+	}
+}
+.footer__info-map{
+	position: relative;
+	&::before{
+		content: '';
+		position: absolute;
+		background-image: url(../images/icons/map.png);
+		width: 10px;
+		height: 17px;
+		left: 0;
+		top: 14px;
+	}
+}
+.footer__col-menu{
+	max-width: 152px;
+	width: 100%;
+}
+.footer__col-title{
+	font-size: 18px;
+	margin-bottom: 38px;
+	margin-top: 8px;
+	color: #fff;
+}
+.footer__col-list{
+	a{
+		color: #ababab;
+		line-height: 32px;
+	}
+}
+.footer__col-newsletter{
+	max-width: 360px;
+	width: 100%;
+}
+.footer__search-form{
+	max-width: 360px;
+	width: 100%;
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 48px;
+	input{
+		display: block;
+		width: 100%;
+		border-radius: 50px;
+		border: none;
+		height: 50px;
+		color: #ababab;
+		outline: none;
+		padding-left: 22px;
+		padding-right: 90px;
+		font-weight: 400;
+		&::placeholder{
+			color: #ababab;
+		}
+	}
+	button{
+		position: absolute;
+		right: 0;
+		top: 0;
+		cursor: pointer;
+		width: 100px;
+		height: 100%;
+		border: none;
+		border-radius: 50px;
+		background-color: $blue;
+		outline: none;
+		color: #fff;
+	}
+}
+.footer__social-link{
+	li{
+		display: inline-block;
+	}
+}
+.link-facebook{
+	background-color: #395799;
+	width: 42px;
+	height: 42px;
+	border-radius: 50%;
+}
+
+
+.footer__copy{
+	background-color: #192027;
+}
+.footer__copy-text{
+	color: #999;
+	text-align: center;
+	padding: 40px 0;
+	font-weight: 400;
+	span{
+		color: #fff;
+	}
+}
+
+// end footer
